@@ -82,8 +82,9 @@ const getCategory = (res) =>{
           <p className='disp'><DisplayNames  laureates={prize.laureates}/></p>
           <p className='category'>{prize.category}</p>
           <p className='prizeYear'>{prize.year} </p>
-        return <h1>Not Found</h1>
+       
         </div>)
+ return <h1>Not Found</h1>
       })}
     </div>
   );
