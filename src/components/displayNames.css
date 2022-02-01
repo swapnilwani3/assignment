@@ -1,0 +1,16 @@
+.display{
+
+}
+.dNames{
+    display: flex;
+    padding: 10px;
+    align-content: left;
+}
+.names{
+    align-content: flex-start;
+    width: 30%;
+}
+.motivation {
+    width: 60%;
+    padding-left: 20px;
+}

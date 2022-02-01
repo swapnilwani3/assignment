@@ -1,0 +1,23 @@
+
+.app, .title{
+    display: flex;
+    margin-left: auto;
+    padding: 5px;
+    padding-left: 40px;
+    border: 1px solid #E9DAC1;
+}
+.app > .disp {
+    padding-left: 30px;
+    width: 50%;
+    align-content: center;
+}
+.app > .category{
+    width: 10%;
+    align-content: center;
+}
+.app > .prizeYear{
+    width: 5%;
+}
+.name{
+    padding-left: 6%;
+}
