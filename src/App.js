@@ -7,7 +7,7 @@ import DisplayNames from './components/DisplayNames';
 
 
 function App() {
-  const NOBEL_API = "http://api.nobelprize.org/v1/prize.json";
+  const NOBEL_API = "https://api.nobelprize.org/v1/prize.json";
   const [responeNobel, setResponeNobel] = useState([]);
   const [loading, setLoading] = useState(true);
   const fetchNobelApi = ()=>{
