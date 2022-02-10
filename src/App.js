@@ -60,7 +60,7 @@ const getCategory = (res) =>{
   </select>
   <input type="submit" value="Submit" />
 </form>
-<button>Get the Winner</button>
+<button>Winner</button>
 <div className='title'>
 <h1 className='name'>Names</h1>
       <h1 style={{paddingLeft:"7%"}}>Motivation</h1>
@@ -82,7 +82,7 @@ const getCategory = (res) =>{
           <p className='disp'><DisplayNames  laureates={prize.laureates}/></p>
           <p className='category'>{prize.category}</p>
           <p className='prizeYear'>{prize.year} </p>
-       
+
         </div>)
  return null;
       })}

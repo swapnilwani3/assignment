@@ -12,20 +12,7 @@ export default function YearPickerMUI({setYearDropDown}) {
     setYearDropDown(value.getFullYear())
     // console.log(value.getFullYear())
     return (
-        // <DatePicker />
-    //   <LocalizationProvider dateAdapter={AdapterDateFns}>
-    //     <Stack spacing={3}>
-    //       <DatePicker
-    //         views={['year']}
-    //         label="Year only"
-    //         value={value}
-    //         onChange={(newValue) => {
-    //           setValue(newValue);
-    //         }}
-    //         renderInput={(params) => <TextField {...params} helperText={null} />}
-    //       />
-    //     </Stack>
-    //   </LocalizationProvider>
+
     <LocalizationProvider dateAdapter={AdapterDateFns}>
   <StaticDatePicker
     displayStaticWrapperAs="desktop"
