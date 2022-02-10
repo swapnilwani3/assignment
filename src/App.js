@@ -61,6 +61,7 @@ const getCategory = (res) =>{
   <input type="submit" value="Submit" />
 </form>
 <button>Winner</button>
+<button>New winner</button>
 <div className='title'>
 <h1 className='name'>Names</h1>
       <h1 style={{paddingLeft:"7%"}}>Motivation</h1>
